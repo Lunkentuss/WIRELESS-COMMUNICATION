@@ -1,0 +1,25 @@
+Commands:
+
+git clone https://github.com/lunkentuss/WIRELESS-COMMUNICATION.git //get the reposity dir
+git pull  //Update repository
+
+
+--Add something to repository--
+
+1. git add .
+2. git commit -m "Messeage"
+3. git push
+
+--Add something to repository--
+
+OBS! Pull before push!
+
+Icke viktiga commands:
+
+git rm [file]
+...
+
+möte 
+inköpsstatistik fr m&s
+avtalsvaror listor på det vi handlar mest av
+

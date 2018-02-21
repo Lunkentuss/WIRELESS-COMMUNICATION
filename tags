@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+array_maximum	utils/array_maximum.m	/^function [index value] = array_maximum(a)$/;"	f
+bit2data	receiver/bit2data/bit2data.m	/^function data = bit2data(type,data,varargs)$/;"	f
+bit2text	receiver/bit2data/bit2text.m	/^function str = bit2text(data)$/;"	f
+bitstreamtoimage	receiver/bit2data/bitstreamtoimage.m	/^function img = bitstreamtoimage(bitstream)$/;"	f
+createdata	sender/createdata/createdata.m	/^function data = createdata(type,varargin)$/;"	f
+cut2max	utils/cut2max.m	/^function signal_cut = cut2max(signal,end_index)$/;"	f
+cut2threshold	utils/cut2threshold.m	/^function signal_cut = cut2threshold(signal,threshold)$/;"	f
+de2bi0	utils/de2bi0.m	/^function binaryArray = de2bi0(nbr,sizeOfArray)$/;"	f
+demodulate	receiver/demodulate/demodulate.m	/^function data = demodulate(signal,frequency,samplerate,threshold,demodulation,varargin);$/;"	f
+demodulation_BPSK	receiver/demodulate/demodulation_BPSK.m	/^function outPut = demodulation_BPSK(dataIn,sampleRate,frequency,filtOrd)$/;"	f
+demodulation_ask	receiver/demodulate/demodulation_ask.m	/^function data = demodulation_ask(signal,frequency,samplerate,nbrOfBits,maxValue)$/;"	f
+demodulation_ask_v2	receiver/demodulate/demodulation_ask_v2.m	/^function data = demodulation_ask_v2(signal,frequency,samplerate,nbrOfBits,maxValue,oscPerBit)$/;"	f
+demodulation_ask_v4	receiver/demodulate/demodulation_ask_v4.m	/^function data = demodulation_ask_v4(signal,frequency,samplerate,nbrOfBits,maxValue,oscPerBit,nbrOfSymbols)$/;"	f
+envelope	utils/envelope0.m	/^function out_signal = envelope(in_signal,steps)$/;"	f
+hamming_decoding	error_correction/hamming_decoding.m	/^function [outData,nbrOfErrors]=hamming_decoding(inData)$/;"	f
+hamming_encoding	error_correction/hamming_encoding.m	/^function eData=hamming_encoding(inData)$/;"	f
+handle_header_ask	receiver/demodulate/handle_header_ask.m	/^function [signal_clip,nbrOfBits,meanEnv] = handle_header_ask(signal,frequency,samplerate)$/;"	f
+handle_header_ask_v2	receiver/demodulate/handle_header_ask_v2.m	/^function [signal_clip,nbrOfBits,meanEnv] = handle_header_ask_v2(signal,frequency,samplerate,oscPerBit)$/;"	f
+header_ask	sender/modulate/header_ask.m	/^function header = header_ask(frequency,samplerate,nbrOfBits,oscPerBit)$/;"	f
+imagetobitstream	sender/createdata/imagetobitstream.m	/^function bitstream = imagetobitstream(imgagename)$/;"	f
+list0	utils/list0.m	/^function [value,ind] = list0(array,value1,ind1)$/;"	f
+lvfilter_fir	utils/hpfilter_fir.m	/^function fsignal = lvfilter_fir(signal,fc1,fc2,fs)$/;"	f
+lvfilter_fir	utils/lpfilter_fir.m	/^function fsignal = lvfilter_fir(signal,fc,fs)$/;"	f
+mean_even_space	utils/mean_even_space.m	/^function mean_value = mean_even_space(signal,n,n_space)$/;"	f
+modulate	sender/modulate/modulate.m	/^function signal = modulate(data,frequency,samplerate,modulation,varargin);$/;"	f
+modulation_ask	sender/modulate/modulation_ask.m	/^function signal = modulation_ask(data,frequency,samplerate,oscPerBit)$/;"	f
+modulation_ask_v4	sender/modulate/modulation_ask_v4.m	/^function signal = modulation_ask_v4(data,frequency,samplerate,oscPerBit,nbrOfSymbols,scaleArray)$/;"	f
+modulation_bpsk	sender/modulate/modulation_bpsk.m	/^function signal = modulation_bpsk(data,frequency,samplerate,oscPerBit)$/;"	f
+ones_data	sender/createdata/ones_data.m	/^function data = ones_data(nbrOfBits)$/;"	f
+oversampling_delay	utils/oversampling_delay.m	/^function delay = oversampling_delay(early,now,late)$/;"	f
+plotfft	utils/plotfft.m	/^function [X,f]=plotfft(x,Sr)$/;"	f
+ppm_round	utils/ppm_round.m	/^function value = ppm_round(signal_value,maxValue,nbrOfSymbols)$/;"	f
+random_data	sender/createdata/random_data.m	/^function data = random_data(nbrOfBits,nbr)$/;"	f
+receive	receiver/receive/receive.m	/^function signal = receive(samplerate,input,recordtime)$/;"	f
+send	sender/send/send.m	/^function null = send(signal,samplerate,output)$/;"	f
+text_data	sender/createdata/text_data.m	/^function data = text_data(str)$/;"	f
